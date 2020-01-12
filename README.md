@@ -27,10 +27,10 @@ These are shared functionalities in the framework which include:
 add the following dependency to pom.xml 
 
 
-`
+```
 		<dependency>
-				<groupId>af.gov.anar.core</groupId>
-            	<artifactId>anar-core</artifactId>
-            	<version>${project.version}</version>
+			<groupId>af.gov.anar.core</groupId>
+			<artifactId>anar-core</artifactId>
+			<version>${project.version}</version>
 		</dependency>
-`
+```
