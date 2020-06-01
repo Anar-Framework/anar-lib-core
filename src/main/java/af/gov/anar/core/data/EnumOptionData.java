@@ -25,17 +25,17 @@ package af.gov.anar.core.data;
  */
 public class EnumOptionData {
 
-    private final Long id;
+    private final String id;
     private final String code;
     private final String value;
 
-    public EnumOptionData(final Long id, final String code, final String value) {
+    public EnumOptionData(final String id, final String code, final String value) {
         this.id = id;
         this.code = code;
         this.value = value;
     }
 
-    public Long getId() {
+    public String getId() {
         return this.id;
     }
 
